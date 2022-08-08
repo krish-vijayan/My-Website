@@ -1,0 +1,79 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: 'PT Sans', sans-serif;
+}
+
+.home,
+.contact,
+.products,
+.sign-up {
+	display: flex;
+	height: 90vh;
+	align-items: center;
+	justify-content: center;
+	font-size: 3rem;
+}
+
+/*CONTACT PAGE*/
+.contact-top {
+	background-image: url('../public/images/contact-img.jpg');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100vh;
+}
+.contact-bottom {
+	background-position: center;
+	background-size: cover;
+	width: auto;
+	height: 50vh;
+}
+.contact-font {
+	color: white;
+	font-size: 10vw;
+	position: absolute;
+	top: 40%;
+	left: 10%;
+}
+.contact-info {
+	color: black;
+	font-size: 7vw;
+}
+
+/*WORK PAGE*/
+.work-top {
+	background-image: url('../public/images/work-img.jpg');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100vh;
+}
+
+.work-font {
+	color: white;
+	font-size: 10vw;
+	position: absolute;
+	top: 40%;
+	left: 40%;
+}
+
+.work-bottom {
+	background-position: center;
+	background-size: cover;
+	width: auto;
+	height: 100vh;
+	position: absolute;
+	left: 100px;
+}
+
+.work-info {
+	font-size: 40px;
+	border: 2px solid;
+}
+
+.work-list li {
+	list-style-type: '➜';
+	color: lightblue;
+}
