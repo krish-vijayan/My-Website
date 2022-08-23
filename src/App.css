@@ -2,7 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .home,
@@ -16,35 +16,9 @@
   font-size: 3rem;
 }
 
-/*CONTACT PAGE*/
-.contact-top {
-  background-image: url('../public/images/contact-img.jpg');
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 100vh;
-}
-.contact-bottom {
-  background-position: center;
-  background-size: cover;
-  width: auto;
-  height: 50vh;
-}
-.contact-font {
-  color: white;
-  font-size: 10vw;
-  position: absolute;
-  top: 40%;
-  left: 10%;
-}
-.contact-info {
-  color: black;
-  font-size: 7vw;
-}
-
 /*WORK PAGE*/
 .work-top {
-  background-image: url('../public/images/work-img.jpg');
+  background-color: black;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -71,5 +45,84 @@
 }
 .resume-background {
   height: 100vw;
-  background-color: #fffcf8;
+  background-color: #ffffff;
+}
+@media (max-width: 768px) {
+  .resume {
+    zoom: 140%;
+  }
+}
+
+/*PROJECTS PAGE*/
+.projects-top {
+  background-color: black;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.projects-font {
+  color: white;
+  font-size: 10vw;
+  position: absolute;
+  top: 40%;
+  left: 40%;
+}
+
+.projects-bottom {
+  background-position: center;
+  background-size: cover;
+  width: auto;
+  height: 50vh;
+}
+
+/*INTERESTS PAGE*/
+.interests-top {
+  background-color: black;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.interests-font {
+  color: white;
+  font-size: 10vw;
+  position: absolute;
+  top: 40%;
+  left: 40%;
+}
+
+.interests-bottom {
+  background-position: center;
+  background-size: cover;
+  width: auto;
+  height: 50vh;
+}
+
+/*CONTACT PAGE*/
+.contact-top {
+  background-color: black;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.contact-bottom {
+  background-position: center;
+  background-size: cover;
+  width: auto;
+  height: 50vh;
+}
+.contact-font {
+  color: white;
+  font-size: 10vw;
+  position: absolute;
+  top: 40%;
+  left: 10%;
+}
+.contact-info {
+  color: black;
+  font-size: 7vw;
 }

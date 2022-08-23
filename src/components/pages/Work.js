@@ -1,9 +1,10 @@
-import React from 'react';
-import '../../App.css';
+import React from "react";
+import "../../App.css";
 
 function Work() {
   return (
     <>
+      {" "}
       <div className="work-top">
         <h1 className="work-font">Work</h1>
       </div>
