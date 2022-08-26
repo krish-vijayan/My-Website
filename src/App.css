@@ -26,11 +26,17 @@
 }
 
 .work-font {
-  color: white;
-  font-size: 10vw;
+  font-size: 20vw;
   position: sticky;
   text-align: center;
   top: 20%;
+  background-image: url(https://i.pinimg.com/originals/e9/db/09/e9db09b6ff90a4b6cf6f5b01a118524f.gif);
+  background-size: contain;
+  color: transparent;
+  -moz-background-clip: text;
+  -webkit-background-clip: text;
+  text-transform: uppercase;
+  -webkit-text-stroke: 0.1px white;
 }
 
 .work-bottom {
@@ -63,11 +69,17 @@
 }
 
 .projects-font {
-  color: white;
-  font-size: 10vw;
+  font-size: 20vw;
   position: sticky;
   text-align: center;
   top: 20%;
+  background-image: url(https://i.pinimg.com/originals/e9/db/09/e9db09b6ff90a4b6cf6f5b01a118524f.gif);
+  background-size: contain;
+  color: transparent;
+  -moz-background-clip: text;
+  -webkit-background-clip: text;
+  text-transform: uppercase;
+  -webkit-text-stroke: 0.1px white;
 }
 
 .projects-bottom {
@@ -163,11 +175,17 @@
 }
 
 .interests-font {
-  color: white;
-  font-size: 10vw;
+  font-size: 20vw;
   position: sticky;
   text-align: center;
   top: 20%;
+  background-image: url(https://i.pinimg.com/originals/e9/db/09/e9db09b6ff90a4b6cf6f5b01a118524f.gif);
+  background-size: contain;
+  color: transparent;
+  -moz-background-clip: text;
+  -webkit-background-clip: text;
+  text-transform: uppercase;
+  -webkit-text-stroke: 0.1px white;
 }
 
 .interests-bottom {
@@ -190,15 +208,51 @@
   background-size: cover;
   width: auto;
   height: 50vh;
+  display: flex;
+  align-items: center;
 }
 .contact-font {
-  color: white;
-  font-size: 10vw;
+  font-size: 20vw;
   position: sticky;
   text-align: center;
   top: 20%;
+  background-image: url(https://i.pinimg.com/originals/e9/db/09/e9db09b6ff90a4b6cf6f5b01a118524f.gif);
+  background-size: contain;
+  color: transparent;
+  -moz-background-clip: text;
+  -webkit-background-clip: text;
+  text-transform: uppercase;
+  -webkit-text-stroke: 0.1px white;
 }
-.contact-info {
+.list-item {
   color: black;
   font-size: 7vw;
+}
+.list {
+  position: absolute;
+  top: 120%;
+  left: 0%;
+  align-items: center;
+  font-size: 0px;
+}
+.list2 {
+  position: absolute;
+  top: 0%;
+  left: 130%;
+  align-items: center;
+  font-size: 4vw;
+}
+.list2 li::marker {
+  content: "➫";
+}
+
+.list2-item {
+  margin-bottom: 11%;
+}
+
+.contact-button:hover {
+  color: rgb(80, 0, 0);
+  box-shadow: 0 5px 15px rgba(145, 92, 182, 0.4);
+  transform: scale(1.2);
+  border-radius: 100%;
 }

@@ -11,9 +11,7 @@ function Interests() {
       <div className="interests-top">
         <h1 className="interests-font">Interests</h1>
       </div>
-      <div className="interests-bottom">
-        <div className="resume-background"></div>
-      </div>
+      <div className="interests-bottom">Hello</div>
     </motion.div>
   );
 }
