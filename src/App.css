@@ -241,18 +241,20 @@
   left: 130%;
   align-items: center;
   font-size: 4vw;
+  width: 90%;
 }
 .list2 li::marker {
   content: "➫";
 }
 
 .list2-item {
-  margin-bottom: 11%;
+  margin-top: 11%;
 }
 
 .contact-button:hover {
-  color: rgb(80, 0, 0);
   box-shadow: 0 5px 15px rgba(145, 92, 182, 0.4);
   transform: scale(1.2);
   border-radius: 100%;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
