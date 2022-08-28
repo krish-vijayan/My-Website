@@ -15,14 +15,22 @@
   justify-content: center;
   font-size: 3rem;
 }
+.particles {
+  position: fixed;
+  z-index: -1;
+}
 
 /*WORK PAGE*/
 .work-top {
-  background-color: black;
+  background-image: url("https://wallpaperaccess.com/full/4249199.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
+}
+.particles-work {
+  position: fixed;
+  z-index: -1;
 }
 
 .work-font {
@@ -36,7 +44,6 @@
   -moz-background-clip: text;
   -webkit-background-clip: text;
   text-transform: uppercase;
-  -webkit-text-stroke: 0.1px white;
 }
 
 .work-bottom {
@@ -61,7 +68,7 @@
 
 /*PROJECTS PAGE*/
 .projects-top {
-  background-color: black;
+  background-image: url("https://wallpaperaccess.com/full/4249199.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -79,7 +86,6 @@
   -moz-background-clip: text;
   -webkit-background-clip: text;
   text-transform: uppercase;
-  -webkit-text-stroke: 0.1px white;
 }
 
 .projects-bottom {
@@ -167,7 +173,7 @@
 
 /*INTERESTS PAGE*/
 .interests-top {
-  background-color: black;
+  background-image: url("https://wallpaperaccess.com/full/4249199.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -185,7 +191,6 @@
   -moz-background-clip: text;
   -webkit-background-clip: text;
   text-transform: uppercase;
-  -webkit-text-stroke: 0.1px white;
 }
 
 .interests-bottom {
@@ -194,10 +199,12 @@
   width: auto;
   height: 50vh;
 }
-
+.interests-background {
+  background-image: src("/images/img-1.jpg");
+}
 /*CONTACT PAGE*/
 .contact-top {
-  background-color: black;
+  background-image: url("https://wallpaperaccess.com/full/4249199.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -222,7 +229,6 @@
   -moz-background-clip: text;
   -webkit-background-clip: text;
   text-transform: uppercase;
-  -webkit-text-stroke: 0.1px white;
 }
 .list-item {
   color: black;
