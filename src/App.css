@@ -22,7 +22,7 @@
 
 /*WORK PAGE*/
 .work-top {
-  background-image: url("https://wallpaperaccess.com/full/4249199.png");
+  background-image: url("../public/images/bg-copy.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -68,7 +68,7 @@
 
 /*PROJECTS PAGE*/
 .projects-top {
-  background-image: url("https://wallpaperaccess.com/full/4249199.png");
+  background-image: url("../public/images/bg-copy.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -173,7 +173,7 @@
 
 /*INTERESTS PAGE*/
 .interests-top {
-  background-image: url("https://wallpaperaccess.com/full/4249199.png");
+  background-image: url("../public/images/bg-copy.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -199,12 +199,10 @@
   width: auto;
   height: 50vh;
 }
-.interests-background {
-  background-image: src("/images/img-1.jpg");
-}
+
 /*CONTACT PAGE*/
 .contact-top {
-  background-image: url("https://wallpaperaccess.com/full/4249199.png");
+  background-image: url("../public/images/bg-copy.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
