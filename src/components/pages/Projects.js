@@ -33,6 +33,20 @@ function Projects() {
                   externalLink="https://krish-vijayan-array-visualization.netlify.app/"
                 />
                 <ProjectItem
+                  title="NBA On Top!"
+                  text1="Utilized React JS and a couple of NBA related APIs to create an application that displays entered players' current season statistics.
+                  "
+                  text2="Interactive input creates a NBA sports card themed card displaying the player's PPG, APG, and RPG. 
+                  "
+                  text3="Also displays the player's headshot and team logo."
+                  hide="nope"
+                  hideDiv="button-a"
+                  app="images/app-logo.png"
+                  appStyle="app-logo"
+                  repoLink="https://github.com/krish-vijayan/nba-on-top"
+                  externalLink="https://nba-on-top.herokuapp.com/"
+                />
+                <ProjectItem
                   title="Weather Application"
                   text1="Utilized React JS, CSS, and a weather API to develop a weather application"
                   text2="Displays city name, temperature in Celsius and Fahrenheit, condition icon with text, and the location's date and time. "
